@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="second.css">
+    <title>MYNTRA</title>
+    <link rel="icon" href="myntra.png">
+</head>
+<body>
+    <!-- header section -->
+    <nav id="back"class="navbar navbar-defualt">
+        <div class="caontainer-fluid">
+            <div class="header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a id="brandlogo" class="navbar-brand">
+                    <img src="myntra.png" alt="logo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul id="cot" class="nav navbar-nav">
+                    <li><a href="#">MEN</a></li>
+                    <lI><a href="#">WOMEN</a></lI>
+                    <lI><a href="#">KIDS</a></lI>
+                    <lI><a href="#">HOME&LIVING</a></lI>
+                    <lI><a href="#">BEAUTY</a></lI>
+                    <lI><a href="#">STUDIO</a><lI>
+                </ul>
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                      <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                          <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                  <ul id="right" class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                  
+            </div>
+            <hr>
+           
+    
+            
+        </div>
+    </nav>
+
+
+    <!-- body section -->
+    <div class="cointainer-fluid">
+        <div id="row1" class="row" >
+            <div id="col1" class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                <p><h3>Filters</h3></p>
+                <hr>
+                <div class="col">
+                  <p><h4>CATEGORIES</h4></p>
+                  <p><input type="checkbox"> T-shirt</p>
+                  <p><input type="checkbox"> Lounge Tshirts</p>
+                  <hr>
+                  <p><h4>BRAND</h4></p>
+                  <p><input type="checkbox"> Puma(1828)</p>
+                  <p><input type="checkbox"> Roadster(3213)</p>
+                  <p><input type="checkbox"> WROGN(1738)</p>
+                  <p><input type="checkbox"> U.S. Polo Assn.(1476)</p>
+                  <p><input type="checkbox"> HRX by Hrithik Roshan(1440)</p>
+                  <p><input type="checkbox"> Friskers(1434)</p>
+                  <p><input type="checkbox"> Tommy Hilfiger(1262)</p>
+                  <p><input type="checkbox"> QUANCIOUS(1252)</p>
+                  <hr>
+                  <p><input type="checkbox"> Rs 185 to Rs 8889(84947)</p>
+                  <p><input type="checkbox"> Rs 8889 to Rs 17593(115)</p>
+                  <p><input type="checkbox"> Rs 185 to Rs 8889(84947)</p>
+                  <hr>
+                  <p><h4>Discount Range</h4></p>
+                  <p><input type="checkbox"> 10% and above</p>
+                  <p><input type="checkbox"> 20% and above</p>
+                  <p><input type="checkbox"> 30% and above</p>
+                  <p><input type="checkbox"> 40% and above</p>
+                  <p><input type="checkbox"> 50% and above</p>
+                  <p><input type="checkbox"> 60% and above</p>
+                  <p><input type="checkbox"> 70% and above</p>
+                  
+                </div>
+            </div>
+
+            <!-- second column -->
+            <div id="col1" class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                <!-- First product -->
+                <div id="cards" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2275365/2019/9/10/4f24f563-c764-4f27-9fc5-9ad3dcf167621568108715062-Roadster-Men-White-Solid-Round-Neck-T-shirt-1641568108713591-1.jpg" alt="Roadster">
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster </h5>
+                      <p class="card-text">Pure Cotton T-shirt</p>
+                      <p id="price">&#x20b9; 225 <del>449</del></p>
+                    </div>
+                  </div>
+                  <!-- second product -->
+                  <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1700944/2022/3/2/093bc645-d461-4128-94a1-0692803944141646215571321-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Cotton-Pure-Cotton--1.jpg" alt="Roadster"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">HRX</h5>
+                      <p class="card-text">Printed Pure Cotton T-shirt</p>
+                      <p id="price"> &#x20b9; 454 <del>799</del></p>
+                    </div>
+                  </div>
+
+                  <!-- Third product -->
+                  <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17168626/2022/4/8/2f7553fa-acfd-4c1d-a77a-0121d50d0f271649419528494-ADIDAS-Women-Tshirts-1691649419528015-1.jpg" alt="Roadster"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">ADIDAS</h5>
+                      <p class="card-text">Women  Printed Logo T-shirt</p>
+                      <p id="price"> &#x20b9; 1399 <del>1799</del></p>
+                    </div>
+                  </div>
+
+                  <!-- fourth product -->
+                  <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8661663/2019/8/10/1fd66138-d882-47c1-99b5-c3b4ee1682ae1565439182294-Roadster-Women-Pink-Solid-Styled-Back-Top-5871565439181081-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster</h5>
+                      <p class="card-text">Women Cotton Pure T-shirt</p>
+                      <p id="price"> &#x20b9; 499 <del>499</del></p>
+                    </div>
+                 </div>
+
+                 <!-- fifth product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10565598/2022/5/20/cfb8120f-527c-4a39-b64b-31c5a1752d721653029232361-HRX-by-Hrithik-Roshan-Women-Peach-Beige-Rapid-Dry-Running-T--1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">HRX</h5>
+                      <p class="card-text">Running Rapid Dry T-shirt</p>
+                      <p id="price"> &#x20b9; 799 <del>999</del></p>
+                    </div>
+                 </div>
+
+                 <!-- six product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10940528/2020/2/13/3e484090-d487-4252-9f30-beab10ce1f0a1581594832846-Roadster-Men-Tshirts-4501581594830605-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster</h5>
+                      <p class="card-text">Printed Round Neck T-shirt</p>
+                      <p id="price"> &#x20b9; 419 <del>599</del></p>
+                    </div>
+                 </div>
+            </div>
+
+            <!-- third column -->
+            <div id="col1" class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                <!-- /* first product */ -->
+                <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/3009070/2018/5/31/f48fa8e4-ee70-4118-8a1d-a898037036bc1527767035968-Roadster-Men-Tshirts-1311527767034405-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster</h5>
+                      <p class="card-text">Solid polo round Neck T-shirt</p>
+                      <p id="price"> &#x20b9; 899 <del>1299</del></p>
+                    </div>
+                 </div>
+
+                 <!-- second product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13802692/2021/3/31/bea0e85b-1a72-423e-9eed-945a81ea6fca1617187640781-MH-Easy-Men-Pink-Striped-Round-Neck-T-shirt-301617187639324-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">M&H Easy</h5>
+                      <p class="card-text">Striped round Neck T-shirt</p>
+                      <p id="price"> &#x20b9; 599 <del>899</del></p>
+                    </div>
+                 </div>
+
+                 <!-- thied product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10673544/2019/9/24/6b9c7688-7ca2-4d11-9e5b-a3745ecd8f761569310358973-The-Indian-Garage-Co-Men-Shirts-8481569310357131-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">The Indian Cargo Co</h5>
+                      <p class="card-text">Men Slim Fit Casual shirt</p>
+                      <p id="price"> &#x20b9; 692 <del>819</del></p>
+                    </div>
+                 </div>
+
+                 <!-- fourth product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10944918/2020/2/11/cdcefb61-236e-4670-944b-33718cad0b4c1581401811512-Roadster-Men-Shirts-8541581401809474-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster</h5>
+                      <p class="card-text">Men Reguslar Casual Shirt</p>
+                      <p id="price"> &#x20b9; 779 <del>999</del></p>
+                    </div>
+                 </div>
+
+                 <!-- fifth product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11326686/2020/2/24/ea16898e-7a72-4989-9699-16c16d6f76591582542303146-Roadster-Men-Shirts-6021582542301356-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster</h5>
+                      <p class="card-text">Cooton Casual shirt</p>
+                      <p id="price"> &#x20b9; 999 <del>1399</del></p>
+                    </div>
+                 </div>
+
+                 <!-- six product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16088058/2022/3/15/249fd38f-ca9a-4dc9-a745-ca06183fc0141647343661202TommyHilfigerMenNavyBlueBrandLogoEmbroideredPoloCollarT-shir1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Nautica</h5>
+                      <p class="card-text">Slim Fit Printed Casual shirt</p>
+                      <p id="price"> &#x20b9; 1899 <del>2299</del></p>
+                    </div>
+                 </div>
+              
+            </div>
+
+            <!-- fourth column -->
+            <div id="col1" class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                <!-- first product -->
+                <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15353374/2022/4/28/78a6ebc1-6135-4c60-9d36-48343617a3951651117093296-Nautica-Men-Blue--White-Slim-Fit-Tartan-Checks-Checked-Casua-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">nautica</h5>
+                      <p class="card-text">Slim Fit Casual shirt</p>
+                      <p id="price"> &#x20b9; 2159 <del>3299</del></p>
+                    </div>
+                 </div>
+
+                 <!-- second product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11636530/2020/7/23/04b1e9ba-679b-4d56-b6f9-3efd34311a491595511072588-Roadster-Men-Tshirts-5201595511071223-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster</h5>
+                      <p class="card-text">Solid polo round Neck T-shirt</p>
+                      <p id="price"> &#x20b9; 599 <del>899</del></p>
+                    </div>
+                 </div>
+
+                 <!-- third product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2358006/2019/12/5/a350d284-d816-406e-9a3b-5e9928ebe26d1575548743594-Harvard-Men-Red--White-Slim-Fit-Striped-Casual-Shirt-6001575-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Harvard</h5>
+                      <p class="card-text">SMen Fit Casual shirt</p>
+                      <p id="price"> &#x20b9; 1139 <del>1899</del></p>
+                    </div>
+                 </div>
+
+                 <!-- fourth product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2284690/2018/8/8/673f77d2-0a03-453b-83fd-e58b2a9042301533731867140-Roadster-Men-Green-Regular-Fit-Solid-Casual-Shirt-8961533731-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster</h5>
+                      <p class="card-text">Men Regular shirt</p>
+                      <p id="price"> &#x20b9; 599 <del>899</del></p>
+                    </div>
+                 </div>
+
+                 <!-- fifth product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14885528/2022/4/13/e9d65901-4d46-483b-b084-8276b5c61ed11649834708949MastHarbourMenMulticolouredSlimFitStripedCasualShirt1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster</h5>
+                      <p class="card-text">Men Regular shirt</p>
+                      <p id="price"> &#x20b9; 599 <del>899</del></p>
+                    </div>
+                 </div>       
+
+                 <!-- six product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/2/6/1a340c1e-d6e0-4430-8b35-717ba5426f511580945402271-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster</h5>
+                      <p class="card-text">Solid polo round Neck T-shirt</p>
+                      <p id="price"> &#x20b9; 899 <del>1299</del></p>
+                    </div>
+                 </div>
+            </div>
+            
+            <!-- Fifth column -->
+            <div id="col1" class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                <!-- first product -->
+                <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15267340/2021/9/18/5b34d1ee-ed05-44e8-9e2b-cca8ff4720c01631961195051-Puma-Men-Sweatshirts-9651631961194513-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Puma</h5>
+                      <p class="card-text">Men Printed Sweetshoirt </p>
+                      <p id="price"> &#x20b9; 1539 <del>3099</del></p>
+                    </div>
+                 </div>
+                 <!-- second product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6510458/2018/10/30/da83c4d2-8416-4f3a-bc6d-46129eaf5ef71540895310508-Roadster-Men-Black-Solid-Sweatshirt-9721540895310347-1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Roadster</h5>
+                      <p class="card-text">Men Solid Sweetshirt </p>
+                      <p id="price"> &#x20b9; 489 <del>999</del></p>
+                    </div>
+                 </div>
+                 <!-- third product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17124198/2022/2/10/ad50c952-a695-4b73-bafd-0f60e92196711644501957666RelaxedFitHoodie1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">H&M </h5>
+                      <p class="card-text">Men Relaxed Fit Hoodie</p>
+                      <p id="price"> &#x20b9; 1999 <del>2999</del></p>
+                    </div>
+                 </div>
+
+                 <!-- fourth product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15193748/2021/8/19/f6c10947-b696-4510-a1fe-1fe8ad6d06731629350733468RelaxedFitHoodie1.jpg"> 
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">H&M</h5>
+                      <p class="card-text">Men Black Fit Hoodie</p>
+                      <p id="price"> &#x20b9; 1499 <del>1999</del></p>
+                    </div>
+                 </div>
+
+                 <!-- fifth product -->
+                 <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15144304/2021/8/13/defcdc57-3c80-45e9-92c2-db9f8095b21d1628866321029Sweatshirts1.jpg">
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Gant</h5>
+                      <p class="card-text">Men Printed Sweetshirt</p>
+                      <p id="price"> &#x20b9; 5249 <del>7999</del></p>
+                    </div>
+                </div>
+
+                <!-- six product -->
+                <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13802698/2021/11/20/fba742cb-e0ec-4b7a-8be2-d38e08e4d9281637384245733-Puma-Men-Sweatshirts-6141637384245191-1.jpg">
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Puma</h5>
+                      <p class="card-text">Men Printed Sweetshirt</p>
+                      <p id="price"> &#x20b9; 2199 <del>3999</del></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sixth column -->
+            <div id="col1" class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+                <!-- first product -->
+                <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17205144/2022/3/16/298056aa-615a-4023-ba5f-34d5f73766cd1647413316479-Raymond-Men-Shirts-2091647413315970-1.jpg">
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Raymond</h5>
+                      <p class="card-text">Slim Fit Formal Shirt</p>
+                      <p id="price"> &#x20b9; 879 <del>999</del></p>
+                    </div>
+                </div>
+                <!-- second product -->
+                <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17567784/2022/3/29/e1749660-ad49-4106-92f5-dc65f2e3fa0f1648555871309-Louis-Philippe-Men-Shirts-8331648555870781-1.jpg">
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Louis Phillipe</h5>
+                      <p class="card-text"> Formal Shirt</p>
+                      <p id="price"> &#x20b9; 2209 <del>2999</del></p>
+                    </div>
+                </div>
+                <!-- third product -->
+                <div id="cards" class="card" style="width: 18rem;">
+                    <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17389512/2022/3/24/c65f802e-3106-47e5-bd4c-d0d07ea9655e1648119035635-Van-Heusen-Men-Blue-Standard-Slim-Fit-Textured-Opaque-Self-D-1.jpg">
+                    <div id="body" class="card-body">
+                      <h5 class="card-title">Van Heusen</h5>
+                      <p class="card-text"> Slim Fit Pure Cotton Shirt</p>
+                      <p id="price"> &#x20b9; 1234 <del>1999</del></p>
+                    </div>
+                    </div>
+                    <!-- fourth product -->
+                <div id="cards" class="card" style="width: 18rem;">
+                        <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17205164/2022/3/10/76dd4405-b9ed-4a0e-8cbe-1ff1048df4611646895305104-Raymond-Men-Shirts-1391646895304635-1.jpg">
+                        <div id="body" class="card-body">
+                          <h5 class="card-title">Raymond</h5>
+                          <p class="card-text"> Slim Fit Formal Shirt</p>
+                          <p id="price"> &#x20b9; 799 <del>1599</del></p>
+                        </div>
+                        </div>
+                        <!-- fifth product -->
+                        <div id="cards" class="card" style="width: 18rem;">
+                            <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17201722/2022/3/18/9796eb36-1b3a-4027-95c8-18c16545f25a1647595973226-Park-Avenue-Men-White--Grey-Slim-Fit-Striped-Formal-Shirt-48-1.jpg">
+                            <div id="body" class="card-body">
+                              <h5 class="card-title">Park Avenue</h5>
+                              <p class="card-text"> Slim Fit Formal Shirt</p>
+                              <p id="price"> &#x20b9; 759 <del>1199</del></p>
+                            </div>
+                            </div>
+                            <!-- six product -->
+                            <div id="cards" class="card" style="width: 18rem;">
+                                <img  class="card-img-top" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13340254/2021/2/22/e40730d7-80e1-407e-a0fb-36cac2814d831613976694721-INVICTUS-Men-Black--White-Slim-Fit-Checked-Casual-Shirt-9781-1.jpg">
+                                <div id="body" class="card-body">
+                                  <h5 class="card-title">INVICTUS</h5>
+                                  <p class="card-text"> Easy Care Men Formal Shirt</p>
+                                  <p id="price"> &#x20b9; 599 <del>899</del></p>
+                                </div>
+                                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="row2" class="row">                 
+            <footer>
+                <!-- footer row -->
+                <!-- <div id="row15" class="row"> -->
+                  <div class="col-xl-1 col-md-2 col-sm-3 col-xs-3"></div>
+                  <div class="col-xl-2 col-md-2 col-sm-2 col-xs-3">
+                   <ul>
+                     <li id="subm" type="none">ONLINE SHOPPING</li>
+                    </ul>
+                   <ul id="firstlist" type="none">
+                     <li id="sublist"><a href="#">MEN</a></li>
+                     <li id="sublist"><a href="">Women</a></li>
+                     <li id="sublist"><a href="">KIDS</a></li>
+                     <li id="sublist"><a href="">HOME&LIVING</a></li>
+                     <li id="sublist"><a href="">BEAUTY</a></li>
+                     <li id="sublist"><a href="">GIFT CARDS</a></li>
+
+                   </ul>
+                  </div>
+                  <div class="col-xl-2 col-md-2 col-sm-3 col-xs-3">
+                    <ul>
+                     <li id="subm" type="none">USEFUL LINK</li>
+                    </ul>
+                    <ul id="firstlist" type="none">
+                     <li id="sublist"><a href="#">CONTACT US</a></li>
+                     <li id="sublist"><a href="">FAQ</a></li>
+                     <li id="sublist"><a href="">T&C</a></li>
+                     <li id="sublist"><a href="">TERM OF USE</a></li>
+                     <li id="sublist"><a href="">TRACK ORDER </a></li>
+                     <li id="sublist"><a href="">CANCELAATION</a></li>
+                     <li id="sublist"><a href="">REFUND</a></li>
+                     <li id="sublist"><a href="">WHITEHAT</a></li>
+                     <li id="sublist"><a href="">BLOG</a></li>
+                     <li id="sublist"><a href="">PRIVACY POLICY</a></li>
+                     <li id="sublist"><a href="">SITEMAP</a></li>
+                     <li id="sublist"><a href="">CORPORATE INFORMATION</a></li>
+
+                   </ul>
+                  </div>
+                  <div class="col-xl-4 col-md-4 col-sm-3 col-xs-3">
+                   <ul>
+                     <li id="suba" type="none">EXPERIENCE MYNTRA APP ON MOBILE</li>                                
+                    </ul>
+                    <div id="fotimg">
+                      <img src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png" alt="and">
+                      <img src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png" alt="app">
+                      
+                    </div>
+                    <div>
+                     <span id="subhead">KEEP IN TOUCH</span>
+                    </div>
+                    <div id="social">
+                      <img src="https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png" alt="fb">
+                      <img src="https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png" alt="twitter">
+                      <img src="https://constant.myntassets.com/web/assets/img/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png" alt="youtube">
+                      <img src="https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png" alt="Instagram">
+                    </div>
+                  </div>
+                  
+                  
+                  
+                <!-- </div> -->
+              </footer>
+        </div>
+    </div>
+</body>
+</html>
