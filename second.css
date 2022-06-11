@@ -1,10 +1,26 @@
-#cards{
-    margin-top: 5%;
+
+/* header section */
+#right{
+    margin-right: 1%;
+    
 }
+#right>li>a{
+    color: black;
+}
+#brandlogo>img{
+    height: 23px;
+}
+#cot>li>a{
+    color: black;
+}
+/* product css */
+.row{
+    margin-bottom:20px ;
+}
+
 #cards>img{
-    height: 230px;
-    width: 120%;
-    margin-top: 5%
+    height: 235px;
+    width: 100%;
 }
 #body>h5{
     font-weight: bold;
@@ -21,8 +37,7 @@
 #price>del{
     font-weight: normal;
 }
-/* 
-footer section */
+/* footer section */
 #subn{
     font-weight: bold;
     
@@ -75,17 +90,3 @@ footer section */
     width:8%;
 }
 
-/* header section */
-#right{
-    margin-right: 1%;
-    
-}
-#right>li>a{
-    color: black;
-}
-#brandlogo>img{
-    height: 23px;
-}
-#cot>li>a{
-    color: black;
-}
